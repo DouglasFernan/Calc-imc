@@ -1,4 +1,4 @@
-# Nome do Projeto
+# Calculadora IMC
 
 Atividade referente ao sábado letivo 26/10
 
@@ -44,4 +44,24 @@ Antes de começar, você precisa ter instalado em sua máquina:
 
       ```bash
       python manage.py runserver
+      
+4. **Encerrando a Aplicação:**
 
+      ```bash
+      Para encerrar a aplicação Python, pressione Ctrl + C no terminal.
+
+5. **Fechando o Ambiente Virtual:**
+
+   - **Windows:**
+      Para fechar o ambiente virtual, execute o seguinte comando:
+      ```bash
+      deactivate
+
+      
+   - **Linux:**
+      Para fechar o ambiente virtual, execute o seguinte comando:
+      ```bash
+      deactivate
+
+Contribuições
+Sinta-se à vontade para contribuir com melhorias ou correções!
