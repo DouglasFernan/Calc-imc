@@ -1,13 +1,13 @@
 # Nome do Projeto
 
-Descrição breve do projeto.
+Atividade referente ao sábado letivo 26/10
 
 ## Pré-requisitos
 
 Antes de começar, você precisa ter instalado em sua máquina:
 
-- Python (versão recomendada)
-- Node.js e npm (versão recomendada)
+- Python 
+- Node.js e npm 
 
 ## Instruções para Rodar o Projeto
 
@@ -17,13 +17,9 @@ Antes de começar, você precisa ter instalado em sua máquina:
      1. Abra o terminal (cmd ou PowerShell).
      2. Navegue até o diretório do seu projeto:
         ```bash
-        cd caminho\para\seu\projeto
+        cd caminho\para\o\projeto
         ```
-     3. Crie um ambiente virtual:
-        ```bash
-        python -m venv venv
-        ```
-     4. Ative o ambiente virtual:
+     3. Ative o ambiente virtual:
         ```bash
         venv\Scripts\activate
         ```
@@ -32,21 +28,20 @@ Antes de começar, você precisa ter instalado em sua máquina:
      1. Abra o terminal.
      2. Navegue até o diretório do seu projeto:
         ```bash
-        cd caminho/para/seu/projeto
+        cd caminho/para/o/projeto
         ```
-     3. Crie um ambiente virtual:
-        ```bash
-        python3 -m venv venv
-        ```
-     4. Ative o ambiente virtual:
+     3. Ative o ambiente virtual:
         ```bash
         source venv/bin/activate
         ```
 
-2. **Instalando Dependências:**
+2. **Compilando o Tailwind:**
+   
+      ```bash
+      npm run generate-css
 
-   Com o ambiente virtual ativado, instale as dependências necessárias:
+3. **Executando o projeto:**
 
-   ```bash
-   pip install -r requirements.txt
-   npm install
+      ```bash
+      python manage.py runserver
+
