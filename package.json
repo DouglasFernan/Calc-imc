@@ -1,0 +1,15 @@
+{
+  "name": "flowbit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "generate-css": "npx tailwindcss -i ./static/src/input.css -o ./static/src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
